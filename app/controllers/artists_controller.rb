@@ -33,4 +33,5 @@ private
 
 def artist_params(*args)
   params.require(:artist).permit(*args)
-endend
+end
+end
