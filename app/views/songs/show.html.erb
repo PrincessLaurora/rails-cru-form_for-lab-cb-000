@@ -2,6 +2,6 @@
 <% @genres.song each do |genre| %>
 <div><%= link_to @genre.name genre_path(@genre) %></div>
 <%end%>
-<% @song.artists each do |artist| %>
+<% @artists.song each do |artist| %>
 <div><%= link_to @artist.name artist_path(@genre) %></div>
 <%end%>
